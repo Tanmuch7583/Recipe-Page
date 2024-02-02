@@ -1,0 +1,68 @@
+@import url("https://fonts.google.com/specimen/Young+Serif");
+@import url("https://fonts.google.com/specimen/Outfit");
+
+body{
+        background-color: antiquewhite;
+        font-family: 'Young Serif', sans-serif;
+    }
+
+h1{
+    font-family: 'Outfit', Times;
+    }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin:150px, auto, 150px, auto;
+    background-color: white;
+    border-radius: 0.625rem;
+    width: 600px;
+}
+
+.container img{
+    object-fit: contain;
+    max-width: 95%;
+    height: auto;
+    border-radius: 0.625rem;
+    margin: auto;
+
+}
+
+.container2 {
+    margin: 3%;
+    border-radius: 0.625rem;
+    background-color:#f9e9f1;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+tr {
+    border-bottom: 2px solid #ddd;
+}
+
+td{
+    text-align:left;
+    vertical-align: top;
+    color: chocolate;
+}
+
+th{
+    text-align:left;
+    vertical-align: middle;
+}
+
+ol li::marker {
+    color: chocolate;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center;
+ }
+
+  .attribution a { 
+        color: hsl(228, 45%, 44%); 
+}
